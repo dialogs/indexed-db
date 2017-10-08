@@ -1,0 +1,11 @@
+{
+  "name": "@dlghq/indexed-db",
+  "version": "0.0.0",
+  "description": "IndexedDB wrapper for dialog projects",
+  "main": "index.js",
+  "author": "Nikita Gusakov <gusnkt@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "flow-bin": "0.56.0"
+  }
+}
