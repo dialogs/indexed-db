@@ -18,6 +18,12 @@
     "url": "https://github.com/dialogs/indexed-db/issues"
   },
   "homepage": "https://github.com/dialogs/indexed-db",
+  "scripts": {
+    "test": "flow",
+    "preversion": "npm test",
+    "postversion": "npm publish",
+    "postpublish": "git push --follow-tags"
+  },
   "devDependencies": {
     "flow-bin": "0.56.0"
   }
