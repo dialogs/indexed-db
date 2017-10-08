@@ -2,9 +2,22 @@
   "name": "@dlghq/indexed-db",
   "version": "0.0.0",
   "description": "IndexedDB wrapper for dialog projects",
-  "main": "index.js",
+  "main": "src/index.js",
+  "keywords": [
+    "indexeddb",
+    "promise",
+    "wrapper"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dialogs/indexed-db.git"
+  },
   "author": "Nikita Gusakov <gusnkt@gmail.com>",
-  "license": "MIT",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/dialogs/indexed-db/issues"
+  },
+  "homepage": "https://github.com/dialogs/indexed-db",
   "devDependencies": {
     "flow-bin": "0.56.0"
   }
