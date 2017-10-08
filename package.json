@@ -1,6 +1,6 @@
 {
   "name": "@dlghq/indexed-db",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "IndexedDB wrapper for dialog projects",
   "main": "src/index.js",
   "keywords": [
